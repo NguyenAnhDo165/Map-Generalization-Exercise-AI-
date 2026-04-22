@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6d78de74c7366bc12a659442fe4ee26a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6d78de74c7366bc12a659442fe4ee26a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6d78de74c7366bc12a659442fe4ee26a = L.map(
+                "map_6d78de74c7366bc12a659442fe4ee26a",
+                {
+                    center: [10.761011, 106.668407],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 20,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ce94baeb7a17cf654ee4d6dce014c719 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ce94baeb7a17cf654ee4d6dce014c719.addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+            var marker_fefb0f00e7020b9e9c752cc5891b6a23 = L.marker(
+                [10.761113522277538, 106.66834923397425],
+                {
+}
+            ).addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+        var popup_50002e2ca37c259b401463e33e40e96e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca87ea00599539343b1db4ed6d39f9ed = $(`<div id="html_ca87ea00599539343b1db4ed6d39f9ed" style="width: 100.0%; height: 100.0%;"><b> <font face="Times" size="3" color="red"> Trường Đại học Kinh tế Thành phố Hồ Chí Minh - Cơ sở B </font> </b></div>`)[0];
+                popup_50002e2ca37c259b401463e33e40e96e.setContent(html_ca87ea00599539343b1db4ed6d39f9ed);
+            
+        
+
+        marker_fefb0f00e7020b9e9c752cc5891b6a23.bindPopup(popup_50002e2ca37c259b401463e33e40e96e)
+        ;
+
+        
+    
+    
+            marker_fefb0f00e7020b9e9c752cc5891b6a23.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9c57495285e8924d00c4438422c1109b = L.marker(
+                [10.756286741170575, 106.66303577560868],
+                {
+}
+            ).addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+        var popup_bf850b2dfc20de0ecbcd3d7df136074c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a1ac1e94af4ac5b75bb67c4811db572 = $(`<div id="html_8a1ac1e94af4ac5b75bb67c4811db572" style="width: 100.0%; height: 100.0%;">Hùng Vương Plaza</div>`)[0];
+                popup_bf850b2dfc20de0ecbcd3d7df136074c.setContent(html_8a1ac1e94af4ac5b75bb67c4811db572);
+            
+        
+
+        marker_9c57495285e8924d00c4438422c1109b.bindPopup(popup_bf850b2dfc20de0ecbcd3d7df136074c)
+        ;
+
+        
+    
+    
+            marker_9c57495285e8924d00c4438422c1109b.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a425718b9bb65d1b7764baf62e2ec1a0 = L.marker(
+                [10.760831845847395, 106.66331544329134],
+                {
+}
+            ).addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+        var popup_8e5c22a01ff0360b808843f9c096a9b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95a7441897ad6dd437739c7461402b92 = $(`<div id="html_95a7441897ad6dd437739c7461402b92" style="width: 100.0%; height: 100.0%;">Sân vận động Thống Nhất</div>`)[0];
+                popup_8e5c22a01ff0360b808843f9c096a9b6.setContent(html_95a7441897ad6dd437739c7461402b92);
+            
+        
+
+        marker_a425718b9bb65d1b7764baf62e2ec1a0.bindPopup(popup_8e5c22a01ff0360b808843f9c096a9b6)
+        ;
+
+        
+    
+    
+            marker_a425718b9bb65d1b7764baf62e2ec1a0.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5f71d57e4789a0819503e42ec08058cb = L.marker(
+                [10.75689938037034, 106.66432490856758],
+                {
+}
+            ).addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+        var popup_edb4dad81fe6ff56c898537916919160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d936a1d19ce5acee59b2cedc338cfdf = $(`<div id="html_3d936a1d19ce5acee59b2cedc338cfdf" style="width: 100.0%; height: 100.0%;">Bệnh viện Phạm Ngọc Thạch</div>`)[0];
+                popup_edb4dad81fe6ff56c898537916919160.setContent(html_3d936a1d19ce5acee59b2cedc338cfdf);
+            
+        
+
+        marker_5f71d57e4789a0819503e42ec08058cb.bindPopup(popup_edb4dad81fe6ff56c898537916919160)
+        ;
+
+        
+    
+    
+            marker_5f71d57e4789a0819503e42ec08058cb.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5a4d7dd69b309348fc479d089331fd0 = L.marker(
+                [10.763546406603451, 106.66834163635485],
+                {
+}
+            ).addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+        var popup_7a25dc6b361cfa6875eaf782eeaebad6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9c68689a29a08fd4256fed2f1826c74 = $(`<div id="html_d9c68689a29a08fd4256fed2f1826c74" style="width: 100.0%; height: 100.0%;">Văn phòng Kinh tế và Văn hóa Đài Bắc tại TP.HCM</div>`)[0];
+                popup_7a25dc6b361cfa6875eaf782eeaebad6.setContent(html_d9c68689a29a08fd4256fed2f1826c74);
+            
+        
+
+        marker_b5a4d7dd69b309348fc479d089331fd0.bindPopup(popup_7a25dc6b361cfa6875eaf782eeaebad6)
+        ;
+
+        
+    
+    
+            marker_b5a4d7dd69b309348fc479d089331fd0.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba44e2005178f034f55970a95b9e5e58 = L.marker(
+                [10.759702012672866, 106.67052732042637],
+                {
+}
+            ).addTo(map_6d78de74c7366bc12a659442fe4ee26a);
+        
+    
+        var popup_03722f75e78848b9fa024047592544bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4da4eb275291fd18b9a9f4551af50bb = $(`<div id="html_c4da4eb275291fd18b9a9f4551af50bb" style="width: 100.0%; height: 100.0%;">Trường Dự bị đại học TP. HCM</div>`)[0];
+                popup_03722f75e78848b9fa024047592544bd.setContent(html_c4da4eb275291fd18b9a9f4551af50bb);
+            
+        
+
+        marker_ba44e2005178f034f55970a95b9e5e58.bindPopup(popup_03722f75e78848b9fa024047592544bd)
+        ;
+
+        
+    
+    
+            marker_ba44e2005178f034f55970a95b9e5e58.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
